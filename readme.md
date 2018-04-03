@@ -10,12 +10,12 @@
 * Until now, I  trained Network under 27 classes.
 * The Result given below is trained under 27 classes.
 ### Train Accuarcy
-![train_accuracy](https://github.com/AlexWang1996/tfrecords_datasets_split/blob/master/VGG19_ARC/train_acc.png)     
+![train_accuracy](https://github.com/AlexWang1996/Amazon-Robotics-Challenge/train_acc.png)     
 ### Train Loss
-![train_loss](https://github.com/AlexWang1996/tfrecords_datasets_split/blob/master/VGG19_ARC/train_loss.png)          
+![train_loss](https://github.com/AlexWang1996/Amazon-Robotics-Challenge/train_loss.png)          
 ### Valid Accuarcy
-![valid_accuracy](https://github.com/AlexWang1996/tfrecords_datasets_split/blob/master/VGG19_ARC/val_acc.png)  
+![valid_accuracy](https://github.com/AlexWang1996/Amazon-Robotics-Challenge/val_acc.png)  
 ### Valid Loss
-![valid_loss](https://github.com/AlexWang1996/tfrecords_datasets_split/blob/master/VGG19_ARC/val_loss.png)      
+![valid_loss](https://github.com/AlexWang1996/Amazon-Robotics-Challenge/val_loss.png)      
 ### Training Time on a single GTX 1080Ti
-![training_time](https://github.com/AlexWang1996/tfrecords_datasets_split/blob/master/VGG19_ARC/training_time.png)    
+![training_time](https://github.com/AlexWang1996/Amazon-Robotics-Challenge/training_time.png)    
