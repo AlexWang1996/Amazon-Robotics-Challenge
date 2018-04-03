@@ -1,3 +1,8 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+__author__ = 'Alex Wang'
+
 from keras.models import load_model
 from PIL import Image
 import os
@@ -16,7 +21,6 @@ for img in os.listdir(img_dir):
         x = np.expand_dims(x, axis=0)
         results = model.predict(x)
         index = tf.argmax(results,1)
-        #print('Predicted:', decode_predictions(results, top=5)[0])
         with tf.Session() as sess:
             sess.run(tf.global_variables_initializer())
             print sess.run(index)
